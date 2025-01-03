@@ -20,9 +20,6 @@
     "format": "npm run format:eslint && npm run format:prettier",
     "test": "ulimit -v unlimited;  web-test-runner  'test/**/*.test.js' --node-resolve --coverage --puppeteer"
   },
-  "dependencies": {
-    "@internetarchive/ia-wayback-search": "^0.2.3"
-  },
   "devDependencies": {
     "@open-wc/demoing-storybook": "^2.4.7",
     "@open-wc/eslint-config": "^8.0.2",
@@ -57,5 +54,10 @@
       "eslint-config-prettier"
     ]
   },
-  "prettier": "@open-wc/prettier-config"
+  "prettier": "@open-wc/prettier-config",
+  "dependencies": {
+    "@internetarchive/ia-wayback-search": "file:../ia-wayback-search",
+    "lit": "^3.2.1",
+    "lit-html": "^3.2.1"
+  }
 }
