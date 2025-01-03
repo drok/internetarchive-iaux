@@ -1,4 +1,4 @@
-import { LitElement, html } from 'https://offshoot.prod.archive.org/lit.js';
+import { LitElement, html } from 'lit';
 import './media-subnav.js';
 import mediaSliderCSS from './styles/media-slider.js';
 

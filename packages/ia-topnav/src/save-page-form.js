@@ -1,4 +1,4 @@
-import { html } from 'https://offshoot.prod.archive.org/lit.js';
+import { html } from 'lit';
 import TrackedElement from './tracked-element.js';
 import savePageFormCSS from './styles/save-page-form.js';
 

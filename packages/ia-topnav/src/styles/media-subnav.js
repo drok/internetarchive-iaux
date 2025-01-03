@@ -1,4 +1,4 @@
-import { css } from 'https://offshoot.prod.archive.org/lit.js';
+import { css } from 'lit';
 import { subnavListCSS } from './base.js';
 
 export default [subnavListCSS, css`

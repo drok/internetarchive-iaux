@@ -1,4 +1,4 @@
-import { html } from 'https://offshoot.prod.archive.org/lit.js';
+import { html } from 'lit';
 import DropdownMenu from './dropdown-menu.js';
 import userMenuCSS from './styles/user-menu.js';
 
