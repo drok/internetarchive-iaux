@@ -1,9 +1,4 @@
-// NOTE: for fully local testing, you can toggle these two lines
-import WaybackSearch from '@internetarchive/ia-wayback-search';
-// import WaybackSearch from '../../../packages/ia-wayback-search/index.js';
-
-// future way we could move to:
-// import WaybackSearch from 'https://esm.archive.org/@internetarchive/ia-wayback-search@^0.2.3';
+import WaybackSearch from '../../ia-wayback-search';
 
 import waybackSearchCSS from './styles/wayback-search.js';
 
