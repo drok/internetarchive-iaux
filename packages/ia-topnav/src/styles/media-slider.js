@@ -1,4 +1,4 @@
-import { css } from 'https://offshoot.prod.archive.org/lit.js';
+import { css } from 'lit';
 
 export default css`
   .media-slider-container {

@@ -1,4 +1,4 @@
-import { html } from 'https://offshoot.prod.archive.org/lit.js';
+import { html } from 'lit';
 import TrackedElement from './tracked-element.js';
 import toSentenceCase from './lib/toSentenceCase.js';
 import moreSliderCSS from './styles/more-slider.js';

@@ -1,4 +1,4 @@
-import { nothing, html } from 'https://offshoot.prod.archive.org/lit.js';
+import { nothing, html } from 'lit';
 
 import TrackedElement from './tracked-element.js';
 import navSearchCSS from './styles/nav-search.js';

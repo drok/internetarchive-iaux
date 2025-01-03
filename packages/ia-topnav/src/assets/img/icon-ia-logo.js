@@ -1,4 +1,4 @@
-import { html } from 'https://offshoot.prod.archive.org/lit.js';
+import { html } from 'lit';
 
 export default html`
   <svg

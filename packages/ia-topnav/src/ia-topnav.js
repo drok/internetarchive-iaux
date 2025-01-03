@@ -1,4 +1,4 @@
-import { LitElement, html, nothing } from 'https://offshoot.prod.archive.org/lit.js';
+import { LitElement, html, nothing } from 'lit';
 
 import './primary-nav.js';
 import './user-menu.js';
