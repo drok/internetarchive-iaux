@@ -1,6 +1,6 @@
 {
   "name": "@internetarchive/scrubber-bar",
-  "version": "0.0.2",
+  "version": "0.0.3-alpha.0",
   "description": "A Scrubber Bar LitElement for use in scrubbing through media",
   "license": "AGPL-3.0-only",
   "main": "index.js",
@@ -23,7 +23,8 @@
     "format:eslint": "eslint --ext .ts . --fix --ignore-path .gitignore",
     "lint:prettier": "prettier \"**/*.ts\" --check --ignore-path .gitignore",
     "format:prettier": "prettier \"**/*.ts\" --write --ignore-path .gitignore",
-    "lint": "eslint --ext .ts,.html . --ignore-path .gitignore && prettier \"**/*.ts\" --check --ignore-path .gitignore",    "format": "npm run format:eslint && npm run format:prettier",
+    "lint": "eslint --ext .ts,.html . --ignore-path .gitignore && prettier \"**/*.ts\" --check --ignore-path .gitignore",
+    "format": "npm run format:eslint && npm run format:prettier",
     "test": "npm run build && karma start --coverage",
     "test:watch": "karma start --auto-watch=true --single-run=false",
     "test:update-snapshots": "karma start --update-snapshots",

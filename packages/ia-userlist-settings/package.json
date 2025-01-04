@@ -7,7 +7,7 @@
   },
   "license": "AGPL-3.0-only",
   "author": "Internet Archive",
-  "version": "1.0.22",
+  "version": "1.0.23-alpha.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {
@@ -32,8 +32,8 @@
   "devDependencies": {
     "@open-wc/eslint-config": "^9.0.0",
     "@open-wc/testing": "^4.0.0",
-    "@types/mocha": "^10.0.6",
     "@types/form-data": "^2.5.0",
+    "@types/mocha": "^10.0.6",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.6.0",
     "@web/dev-server": "^0.4.0",

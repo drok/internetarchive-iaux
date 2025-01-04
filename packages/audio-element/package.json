@@ -1,6 +1,6 @@
 {
   "name": "@internetarchive/audio-element",
-  "version": "0.0.2",
+  "version": "0.0.3-alpha.0",
   "description": "An Audio Element that wraps the HTML audio tag.",
   "license": "AGPL-3.0-only",
   "main": "index.js",
@@ -33,10 +33,10 @@
     "test:compatibility:watch": "karma start --compatibility all --auto-watch=true --single-run=false",
     "test:bs": "karma start karma.bs.config.js --compatibility all --coverage"
   },
-    "dependencies": {
-      "lit": "^2.2.7"
-    },
-    "devDependencies": {
+  "dependencies": {
+    "lit": "^2.2.7"
+  },
+  "devDependencies": {
     "@open-wc/eslint-config": "^7.0.0",
     "@open-wc/prettier-config": "^0.1.10",
     "@open-wc/testing": "^3.1.6",
@@ -61,17 +61,17 @@
     "polymer-cli": "^1.9.11",
     "typescript": "^4.7.4",
     "webpack-merge": "^4.1.5"
-    },
-    "prettier": "@open-wc/prettier-config",
-    "husky": {
+  },
+  "prettier": "@open-wc/prettier-config",
+  "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
-    },
-    "publishConfig": {
+  },
+  "publishConfig": {
     "access": "public"
-    },
-    "lint-staged": {
+  },
+  "lint-staged": {
     "src/**/*.ts": [
       "eslint -c .eslintrc --fix",
       "prettier --write",
