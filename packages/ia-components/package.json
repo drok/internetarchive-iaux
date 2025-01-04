@@ -5,7 +5,7 @@
   "license": "AGPL-3.0-only",
   "scripts": {
     "postversion": "node scripts/postversion.js",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
     "test:generate-output": "mkdir jest-test-utils && jest --json --outputFile=jest-test-utils/jest-test-results.json || true",
     "test:update-snapshots": "jest --updateSnapshot",
     "test": "",
